@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'tools.dart';
 
-void main() {
-  tools.addNewHabit("Meditation", "Meditate for 10 min a day");
+//void main() {
+//  tools.addNewHabit("Meditation", "Meditate for 10 min a day");
 
-/*
+
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -114,5 +115,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  */
+
 }

@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'R_Strings.dart';
+import 'cell.dart';
 
 class homeScreen extends StatelessWidget {
+
+  //creaete cell list here?
+  List<cell> cellsList = [];
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +16,7 @@ class homeScreen extends StatelessWidget {
         title: Text(R_Strings.HOME_APPBAR_TITLE),
 
       ),
-      body: _buildHomeScreen,
+      body: _buildHomeScreen(),
 
     );
   }
@@ -24,4 +28,6 @@ class homeScreen extends StatelessWidget {
       children: <Widget>[],
     );
   }
+
+
 }
