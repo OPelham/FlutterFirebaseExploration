@@ -9,7 +9,12 @@ class cell extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    return GestureDetector()
+    return GestureDetector(
+      key: Key(_info.title.replaceAll(' ', '')+'_gesture_detector'),
+      onTap: () {
+//        Navigator.push(context,  new MaterialPageRoute(builder: (_) => new habitView(_site)));
+      },
+    );
         //make constructor for gesture detector
         //give container as child
   }

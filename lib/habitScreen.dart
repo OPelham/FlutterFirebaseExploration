@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 import 'R_Strings.dart';
+import 'habitInfo.dart';
 
 /***
 Screen to display in depth view of habit
     contains stack?
  */
 
-class habitView extends StatelessWidget {
+class habitScreen extends StatelessWidget {
+
+  BuildContext context;
+  final habitInfo _info;
+  habitScreen(this._info);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +29,7 @@ class habitView extends StatelessWidget {
 
   Widget _buildHabitScreen() {
     return Container(
-      
+
     );
   }
 }
