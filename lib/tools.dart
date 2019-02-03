@@ -32,10 +32,10 @@ class tools {
   //delete existing habit
 
   //get existing habit/get all?
-  static void fetchHabits() {
-    db.get('https://habitapp-a0e21.firebaseio.com/habits.json' )
-        .then((db.Response response) {
-
-    });
-  }
+//  static void fetchHabits() {
+//    db.get('https://habitapp-a0e21.firebaseio.com/habits.json' )
+//        .then((db.Response response) {
+//
+//    });
+//  }
 }
